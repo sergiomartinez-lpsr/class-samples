@@ -15,6 +15,7 @@ class Player(object):
 		print("Goals:"+ self.goals)
 		print("Jersey Number:" + self.jersey_number)
 		print("Position:" + self.position)
+		print("      ")
 # make function that saves the team
 def saveTeam(myPlayers, filename):
 	# let's open the file and write to it
@@ -39,7 +40,7 @@ def loadTeam(filename):
 		# split the lines of the file so it becomes a list
 		myWords = my_line.split()
 		# add to the list 
-		empty_list.append(Player(str(myWords[0]), str(myWords[1]), str(myWords[2]), str(myWords[3]), str(myWords[4]) + "\n"))
+		empty_list.append(Player(str(myWords[0]), str(myWords[1]), str(myWords[2]), str(myWords[3]), str(myWords[4])))
 		# ask for the next line of the file and repeat the same things 
 		my_line = my_file.readline()
 	# close the file
@@ -107,7 +108,7 @@ while choice != "0":
 		print("(3) Save your player list to a file")
 		print("(0) Leave the program (save first to avoid losing your data!)")
 		# allow them to enter their choice
-		choice = raw_input
+		choice = raw_input()
 
 	# if choice is 2, then print the stats
 	elif choice == "2":
