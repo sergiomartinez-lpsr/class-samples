@@ -40,7 +40,7 @@ def loadTeam(filename):
 		# split the lines of the file so it becomes a list
 		myWords = my_line.split()
 		# add to the list 
-		empty_list.append(Player(str(myWords[0]), str(myWords[1]), str(myWords[2]), str(myWords[3]), str(myWords[4])))
+		empty_list.append(Player(str(myWords[0]), str(myWords[1]), str(myWords[2]), str(myWords[3]), str(myWords[4]) + "\n"))
 		# ask for the next line of the file and repeat the same things 
 		my_line = my_file.readline()
 	# close the file

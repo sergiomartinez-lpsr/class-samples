@@ -1,0 +1,12 @@
+print("Welcome to the Haiku generator!")
+print("Provide the first line of your haiku:") 
+line1 = raw_input()
+print("Provide the second line of your haiku:") 
+line2 = raw_input()
+print("Provide the third line of your haiku:")
+line3 = raw_input()
+print("What file would you like to write your haiku to?")
+user_file = raw_input()
+
+their_file = open(user_file, "w")
+their_file.write
