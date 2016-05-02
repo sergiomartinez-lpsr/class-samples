@@ -1,0 +1,40 @@
+body {
+	background-color:lightblue;
+}
+
+h2 {
+	font-family: Arial;
+}
+
+p {
+	font-family: Arial;
+}
+
+ul {
+	font-family: Arial;
+}
+
+ol {
+	font-family: Arial;
+}
+
+.fancy {
+	font-size: 40px;
+	font-family: Verdana;
+}
+
+a {
+	font-family: Arial;
+}
+
+#pele {
+	padding-left: 100px;
+}
+
+#ronaldinho {
+	padding-left: 100px
+}
+
+#sergio {
+	padding-left: 100px;
+}
