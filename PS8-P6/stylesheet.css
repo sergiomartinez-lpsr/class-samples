@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+	font-family: Arial, Times New Roman, serif;
+
+}
+
+a {
+	color: black;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+#container {
+	background-color: white;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#header {
+	text-align: center;
+	padding: 10px;	
+	background-color: purple;
+}
+
+#content {
+	padding: 10px;
+}
+
+
+#nav {
+	width: 180px;
+	float: left;
+	position: fixed;	
+}
+
+#nav ul {
+	padding: 0;
+}
+
+#main {
+        width: 600px;
+	float: right;	   
+	margin-bottom: 0px;
+	font-family: Arial, Times New Roman, serif;
+}
+
+#intro {
+	font-weight: bold;
+}
+
+#scores {
+	font-weight: bold;
+}
+
+#info {
+	font-weight: bold;
+}
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: grey;
+	text-align: right;
+	color: purple;
+}
